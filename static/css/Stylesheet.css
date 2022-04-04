@@ -1,0 +1,32 @@
+/*Font*/
+@font-face {
+    font-family: "03スマートフォントUI";
+    src: url("../font/03スマートフォントUI.otf") format("opentype");
+}
+
+/*BackgroundをWebP対応かどうかで切り替える*/
+.webp body{
+    background: url("../img/back.webp") no-repeat center center;
+    background-size: cover;
+}
+.no-webp body{
+    background: url("../img/back_alt.jpg");
+}
+
+.material-icons-outlined{
+    font-size: 13px;
+}
+
+
+body{
+    font-family: "03スマートフォントUI", sans-serif;
+    color: white;
+}
+
+.prof_box div{
+    background-color: rgba(125,125,125, 0.5);
+}
+
+#icon {
+    border-radius: 50%;
+}
