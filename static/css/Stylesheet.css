@@ -7,7 +7,6 @@
 /*BackgroundをWebP対応かどうかで切り替える*/
 .webp body{
     background: url("../img/back.webp") no-repeat center center;
-    background-size: cover;
 }
 .no-webp body{
     background: url("../img/back_alt.jpg");
@@ -27,6 +26,14 @@ body{
     background-color: rgba(125,125,125, 0.5);
 }
 
+.artifact-row{
+    margin: 3px;
+}
+
 #icon {
     border-radius: 50%;
+}
+
+footer{
+    margin-top: 30px;
 }
