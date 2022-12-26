@@ -1,6 +1,6 @@
 /* 共通パーツと共通スクリプトを読み込む */
 
-$(function () {
+$(document).ready(function () {
   // 共通パーツを読み込む
   $("#nav_visible").load("templates/sidebar_nav_visible.html");
   $("#nav_hidden").load("templates/sidebar_nav_hidden.html");
