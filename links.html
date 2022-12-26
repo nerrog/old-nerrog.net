@@ -2,33 +2,22 @@
 <html lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="icon" href="static/favicons/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="static/css/index.css" />
     <link rel="stylesheet" type="text/css" href="static/css/links.css" />
-    <title>YU-PEI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="static/js/include.js"></script>
+    <title>YU-PEI | LINKS</title>
   </head>
   <body>
     <div id="splash">
       <div class="splashbg"></div>
     </div>
     <!--Nav-->
-    <div class="nav-right visible-xs">
-      <div class="button" id="btn">
-        <div class="bar top"></div>
-        <div class="bar middle"></div>
-        <div class="bar bottom"></div>
-      </div>
-    </div>
+    <div id="nav_visible" class="nav-right visible-xs"></div>
     <main>
-      <nav>
-        <div class="nav-right hidden-xs">
-          <div class="button">
-            <div class="bar top"></div>
-            <div class="bar middle"></div>
-            <div class="bar bottom"></div>
-          </div>
-        </div>
-      </nav>
+      <nav id="nav_hidden"></nav>
 
       <div class="cards">
         <a
@@ -84,20 +73,6 @@
       </div>
     </main>
 
-    <div class="sidebar">
-      <ul class="sidebar-list">
-        <li class="sidebar-item">
-          <a href="/" class="sidebar-anchor">HOME</a>
-        </li>
-        <li class="sidebar-item">
-          <a href="/about.html" class="sidebar-anchor">ABOUT</a>
-        </li>
-        <li class="sidebar-item">
-          <a href="/links.html" class="sidebar-anchor">LINKS</a>
-        </li>
-      </ul>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="static/js/index.js"></script>
+    <div id="sidebar" class="sidebar"></div>
   </body>
 </html>
